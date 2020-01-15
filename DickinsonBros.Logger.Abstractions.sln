@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Logger.Abstractions", "DickinsonBros.Logger.Abstractions\DickinsonBros.Logger.Abstractions.csproj", "{1D00F9D2-166F-4BFC-A4C1-73D2C673ACC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{96ED4BFA-A7DA-4EF3-AE33-D441A6CAA392}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{1ECB19C7-00F6-450A-BFE9-5F7AAC5B173F}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D00F9D2-166F-4BFC-A4C1-73D2C673ACC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D00F9D2-166F-4BFC-A4C1-73D2C673ACC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D00F9D2-166F-4BFC-A4C1-73D2C673ACC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D00F9D2-166F-4BFC-A4C1-73D2C673ACC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D00F9D2-166F-4BFC-A4C1-73D2C673ACC6} = {96ED4BFA-A7DA-4EF3-AE33-D441A6CAA392}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {870AFC15-3E7A-49CC-AF38-BEE668B1C455}
+	EndGlobalSection
+EndGlobal

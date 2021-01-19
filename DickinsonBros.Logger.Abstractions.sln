@@ -7,19 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{1A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{887D73DE-7BE6-41C7-BF74-40410AF4757C}"
 	ProjectSection(SolutionItems) = preProject
-		Tests\DickinsonBros.Logger.Abstractions.runsettings = Tests\DickinsonBros.Logger.Abstractions.runsettings
+		Tests\CodeCoverage.runsettings = Tests\CodeCoverage.runsettings
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{A4B512F9-CFE5-47E8-A5E9-8F96202861A9}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\Prerelease.DickinsonBros.Logger.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.Logger.Abstractions.ps1
+		Scripts\PackagePrerelease.ps1 = Scripts\PackagePrerelease.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Logger.Abstractions", "Source\DickinsonBros.Logger.Abstractions\DickinsonBros.Logger.Abstractions.csproj", "{B6CC106E-2D71-4DDF-A212-8F817DC5842E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Logger.Abstractions.Tests", "Tests\DickinsonBros.Logger.Abstractions.Tests\DickinsonBros.Logger.Abstractions.Tests.csproj", "{19E6840F-B656-49CF-AC85-D513E40F43F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Logger.Abstractions.Tests", "Tests\DickinsonBros.Logger.Abstractions.Tests\DickinsonBros.Logger.Abstractions.Tests.csproj", "{19E6840F-B656-49CF-AC85-D513E40F43F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
